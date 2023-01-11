@@ -3,6 +3,9 @@
 window.addEventListener('load', windowLoad);
  
 function windowLoad () {
+
+	document.body.classList.add('loaded');
+
 	if(document.querySelector('.main-slider')){
 		new Swiper('.main-slider', {
 			speed: 2000,
