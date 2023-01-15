@@ -599,7 +599,58 @@ main {
     transform: translate(0, 0);
     opacity: 1;
 }
-/*---------------footer--------------*/
+
+
+/*--------------------article---------------------*/
+
+.article__big-post {
+
+}
+/*---------------------------------------*/
+
+.article__content {
+    padding: 6.25rem 0;
+}
+.article__container {
+    display: grid;
+    align-items: start;
+    gap: 1.25rem;
+    grid-template-columns: 12.5rem 1fr 12.5rem;
+}
+.article__info {
+    display: flex;
+    gap: 0.4375rem;
+}
+.article__date {
+}
+.article__time {
+}
+.article__body {
+}
+.article__text {
+}
+.article__tags {
+}
+.article__tag {
+}
+.article__author {
+}
+.author {
+}
+.author__avatar {
+}
+.author__body {
+}
+.autor__title {
+}
+.author__skils {
+}
+
+/*---------------------------------------*/
+.article__related {
+    background: rgba(229, 229, 229, 0.3);
+}
+/*--------------------footer---------------------*/
 
 .footer {
     background: #343A40;
